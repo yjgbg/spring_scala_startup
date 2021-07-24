@@ -9,5 +9,5 @@ import org.springframework.scheduling.annotation.EnableScheduling
 class Application
 
 object Application extends App {
-  SpringApplication.run(classOf[projectName], args: _*)
+  SpringApplication.run(classOf[Application], args: _*)
 }
